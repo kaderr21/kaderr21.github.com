@@ -7,7 +7,13 @@ description: This is to show my progress, proficiencies and expertise
 
 # About me
 
-My name is Maciej, I was born in 2005 and I've developed a large passion for IT. I am currently learning how to code with python, I also know basics of C# and C++ because of some classes when I went to high school. My dream is to work in IT, either in networking, IT Security or any type of architectural work. Follow me on my journey! (My plan is to keep everything to show people that anything is possible!)
+My name is Maciej, I was born in 2005 and I've developed a large passion for IT. I am currently learning how to code with python, I also know the very basics of C# and C++. My dream is to work in IT, either in networking, IT Security or any type of architectural work. Follow me on my journey! (My plan is to keep everything to show people that anything is possible!)
+
+## Currently learning
+
+* Networking through Cisco Networking Academy
+* Python
+* IT-Security through different courses
 
 ## Education
 
