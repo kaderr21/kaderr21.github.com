@@ -30,11 +30,42 @@ var fun = function lang(l) {
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```python
+print("Welcome to Maciejs python calculator!")
+
+while True:
+    number1 = float(input("Enter the first number: "))
+    number2 = float(input("Enter the second number: "))
+
+    print("Choose your operation: ")
+    print("1 = Addition")
+    print("2 = Subtraction")
+    print("3 = Multiplication")
+    print("4 = Division")
+    choice = int(input("Enter your choice! (1/2/3/4)"))
+
+    if choice == 1:
+        result = number1 + number2
+        print(f"The result of the addition is: {result}")
+    elif choice == 2:
+        result = number1 - number2
+        print(f"The result of the subtraction is: {result}")
+    elif choice == 3:
+        result = number1 * number2
+        print(f"The result of the multiplication is: {result}")
+    elif choice == 4:
+        if number2 == 0:
+            print("Division by zero is not possible!")
+        else:
+            result = number1 / number2
+            print(f"The result of the division is: {result}")
+    else:
+        print("Invalid choice! Input 1, 2, 3 or 4")
+
+    repeat = input("Do you want to perform another calculation? (Yes/No)").lower()
+    if repeat != 'yes':
+        print("Thank you for using Maciejs python calculator! Have a nice day/evening/night!")
+        break
 ```
 
 #### Header 4
