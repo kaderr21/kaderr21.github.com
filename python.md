@@ -264,6 +264,115 @@ while True:
         print("Thank you for using Maciejs number list! Goodbye!")
         break
 ```
+### Shopping list with a save function
+```python
+shopping_list = {}
+
+
+def add_item():
+    item = input("Enter the item to add: ")
+    try:
+        price = float(input(f"Enter the price of {item}: €"))
+        shopping_list[item] = price
+        print(f"{item} has been added to the list with a price of €{price:.2f}. ")
+    except ValueError:
+        print("Invalid price, please enter a number!")
+
+def remove_item():
+    if not shopping_list:
+        print("Shopping list is empty, nothing to remove!")
+        return
+
+    print("Here is your shopping list: ")
+    for i, (item, price) in enumerate(shopping_list.items(), start=1):
+        print(f"{i}. {item} - €{price:.2f}")
+    
+    while True:
+        try:
+            choice = int(input("Enter the number of the item to remove: "))
+            if 1 <= choice <= len(shopping_list):
+                removed_item = list(shopping_list.keys())[choice - 1]
+                shopping_list.pop(removed_item)
+                print(f"{removed_item} has been deleted from the list!")
+                break
+            else:
+                print("Invalid number. Please choose a valid number!")
+        except ValueError:
+            print("Invalid input, please enter a number!")
+
+def view_list():
+    if shopping_list:
+        print("Your shopping list contains: ")
+        for i, (item, price) in enumerate(shopping_list.items(), start=1):
+            print(f"{i}. {item} - €{price:.2f}")
+    else: 
+        print("Your shopping list is empty!")
+
+def total_price():
+    if shopping_list:
+        total = sum(shopping_list.values())
+        print(f"The total price of your shopping cart is: €{total:.2f}")
+    else:
+        print("Your shopping cart is empty!")
+
+def save_list():
+    try:
+
+        with open("shopping_list.txt", "w") as file:
+            for item, price in shopping_list.items():
+                file.write(f"{item}: €{price:.2f}\n")
+        print("Shopping list has been saved to 'shopping_list.txt'.")
+    except Exception as e:
+        print(f"An error occurred while saving the list: {e}")
+
+def load_list():
+    try:
+        with open("shopping_list.txt", "r") as file:
+            for line in file:
+                try:
+                    item, price = line.split(": €")
+                    shopping_list[item] = float(price.strip())
+                except ValueError:
+                    print(f"Skipping invalid line: {line.strip()}")
+        print("Shopping list has been loaded.")
+    except FileNotFoundError:
+        print("No saved shopping list has been found.")
+    except Exception as e:
+        print(f"An error has occurred while loading the list: {e}")
+
+def main():
+
+    load_list()
+
+
+    while True:
+        print("\nGrocery Store Helper")
+        print("1. Add item")
+        print("2. Remove item")
+        print("3. View list")
+        print("4. Calculate total")
+        print("5. Save list")
+        print("6. Exit")
+        choice = input("Choose an option between (1-6): ")
+
+        if choice == '1':
+            add_item()
+        elif choice == '2':
+            remove_item()
+        elif choice == '3':
+            view_list()
+        elif choice == '4':
+            total_price()
+        elif choice == '5':
+            save_list()
+        elif choice == '6':
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice! Choose between 1, 2, 3, 4, 5 or 6.")
+
+main()
+```
 
 
 # Summary ish
