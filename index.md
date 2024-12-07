@@ -39,5 +39,3 @@ I currently do not have any work experience but I'm looking for an internship at
 
 
 * * *
-
-### Here is an unordered list:
