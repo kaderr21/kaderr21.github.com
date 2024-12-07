@@ -14,6 +14,7 @@ My name is Maciej, I was born in 2005 and I've developed a large passion for IT.
 * Networking through Cisco Networking Academy
 * Python
 * IT-Security through different courses
+* Pentesting and hacking with THM and HTB
 
 ## Education
 
