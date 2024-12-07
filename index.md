@@ -6,9 +6,9 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 This is page 1
 
-[Link to another page](./python.md).
+[Link to my random python projects](./python.md).
 
-There should be whitespace between paragraphs.
+The link is there to both show my progress and to show what I can and know. Later on I will also learn other programming languages like C++, C# etc.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
