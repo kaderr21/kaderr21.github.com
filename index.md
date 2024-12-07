@@ -2,48 +2,27 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-This is page 1
+# About me
+
+My name is Maciej, I was born in 2005 and I've developed a large passion for IT. I am currently learning how to code with python, I also know basics of C# and C++ because of some classes when I went to high school. My dream is to work in IT, either in networking, IT Security or any type of architectural work. Follow me on my journey! (My plan is to keep everything to show people that anything is possible!)
+
+## Education
+
+- Polhemskolan, Lund (High School)
+  - Graduated in Information technology
+
+## Certificates
+
+- Google Cybersecurity Certificate
+  - Skills achieved:
+    - Python, SQL, SIEM, Linux, Infosec, Cryptography.
+
+### Coding projects!
 
 [Link to my random python projects](./python.md).
 
 The link is there to both show my progress and to show what I can and know. Later on I will also learn other programming languages like C++, C# etc.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
 
 ##### Header 5
 
