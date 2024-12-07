@@ -12,7 +12,7 @@ description: This page is to show my random projects and my development.
 This is currently what I have learnt, I will try to update this page frequently with everything that I learn.
 
 ## Test projects
-First project
+### First project
 
 ```python
 try:
@@ -29,7 +29,7 @@ try:
 except ValueError:
     print("Please enter valid numbers!")
 ```
-Project number two
+### Project number two
 ```python
 try:
     number1 = int(input("Enter 1st number: "))
@@ -53,7 +53,7 @@ try:
 except ValueError:
     print("Please input valid numbers :(")
 ```
-Project number three
+### Project number three
 ```python
 try:
     grade = int(input("Input your grade here: "))
@@ -73,7 +73,7 @@ try:
 except ValueError:
     print("Input a valid number!")
 ```
-Project number four
+### Project number four
 ```python
 while True:
     user_input = input("Enter a number or type 'quit' to exit!: ")
@@ -93,7 +93,7 @@ while True:
     except ValueError:
         print("Error: Please input a valid number!")
 ```
-Project number five (Favorite color program)
+### Project number five (Favorite color program)
 ```python
 print("Welcome to my Favorite color program!")
 
@@ -115,7 +115,7 @@ while True:
         break
 
 ```
-Project number six (Number guessing game)
+### Project number six (Number guessing game)
 ```python
 import random
 
@@ -142,7 +142,7 @@ while True:
 
 ## Actually useful programs
 
-Calculator program with options.
+### Calculator program with options.
 ```python
 print("Welcome to Maciejs python calculator!")
 
@@ -180,7 +180,7 @@ while True:
         print("Thank you for using Maciejs python calculator! Have a nice day/evening/night!")
         break
 ```
-Number list program with memory functions
+### Number list program with memory functions
 ```python
 print("Welcome to Maciejs number list program!")
 
