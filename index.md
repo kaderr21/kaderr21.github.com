@@ -35,7 +35,7 @@ The link is there to both show my progress and to show what I can and know. Late
 
 #### Work Experience
 
-I currently do not have any work experience but I'm looking for an internship at different companies here in Sweden. 
+I currently do not have any work experience in IT but I'm looking for an internship at different companies here in Sweden. 
 
 #### Contact info
 
