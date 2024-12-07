@@ -4,7 +4,9 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+This is page 1
+
+[Link to another page](./python.md).
 
 There should be whitespace between paragraphs.
 
