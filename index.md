@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Main portfolio page
+description: This is to show my progress, proficiencies and expertise
 ---
 
 
