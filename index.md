@@ -42,7 +42,7 @@ I currently do not have any work experience in IT but I'm looking for an interns
 | Platform     | Contact info/Usernames    | 
 |:-------------|:--------------------------|
 | Discord      | stopngo                   |
-| Email        | maciej.bazan10@gmail.om   |
+| Email        | maciej.bazan10@gmail.com  |
 
 
 * * *
